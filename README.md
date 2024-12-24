@@ -1,4 +1,5 @@
 ```
+git clone https://github.com/6abc/gemini-chat.git && rm -rf .git
 pip install -r requirements.txt
 python manage.py collectstatic
 python manage.py makemigrations
