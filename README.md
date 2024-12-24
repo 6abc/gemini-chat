@@ -1,3 +1,4 @@
+# API_KEY : https://aistudio.google.com/u/4/apikey
 ```
 git clone https://github.com/6abc/gemini-chat.git && rm -rf .git
 pip install -r requirements.txt
