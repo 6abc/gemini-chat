@@ -16,8 +16,10 @@ nano .env
 3. Start Webapp
 ```
 python manage.py collectstatic
+python manage.py createsuperuser
 python manage.py makemigrations
 python manage.py migrate
-python manage.py createsuperuser
+python manage.py makemigrations chatbot_app
+python manage.py migrate chatbot_app
 python manage.py runserver 0.0.0.0:8000
 ```
