@@ -35,4 +35,4 @@ python manage.py runserver 0.0.0.0:10000
 ```
 nano .env
 ```
-# Access : http://127.0.0.1:1000
+# Access : http://127.0.0.1:10000
