@@ -13,6 +13,7 @@ python manage.py migrate
 python manage.py makemigrations chatbot_app
 python manage.py migrate chatbot_app
 python manage.py runserver 0.0.0.0:10000
+
 ```
 B. Start Webapp Windows 🪟
 ```
@@ -28,7 +29,8 @@ python manage.py makemigrations
 python manage.py migrate
 python manage.py makemigrations chatbot_app
 python manage.py migrate chatbot_app
-python manage.py runserver 0.0.0.0:10000
+python manage.py runserver 127.0.0.1:10000
+
 ```
 # GET UR API KEY : https://aistudio.google.com/apikey
 2. Update Gemini API KEY
