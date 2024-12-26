@@ -17,7 +17,9 @@ python manage.py runserver 0.0.0.0:10000
 ```
 B. Start Webapp Windows 🪟
 ```
-git clone https://github.com/6abc/gemini-chat.git && cd gemini-chat && rm -rf .git
+curl -L -O https://github.com/6abc/gemini-chat/archive/refs/heads/main.zip
+tar -xf main.zip
+cd gemini-chat-main
 python -m venv vr_env
 vr_env\Scripts\activate
 pip install -r requirements.txt
