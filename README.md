@@ -1,6 +1,6 @@
 # These instruction are for linux OS only 
 
-A. Start Webapp Linux
+A. Start Webapp Linux 🐧
 ```
 git clone https://github.com/6abc/gemini-chat.git && cd gemini-chat && rm -rf .git
 python -m venv vr_env
@@ -14,7 +14,7 @@ python manage.py migrate chatbot_app
 python manage.py createsuperuser
 python manage.py runserver 0.0.0.0:10000
 ```
-B. Start Webapp Windows
+B. Start Webapp Windows 🪟
 ```
 git clone https://github.com/6abc/gemini-chat.git && cd gemini-chat && rm -rf .git
 python -m venv vr_env
