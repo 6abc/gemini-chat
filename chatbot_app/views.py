@@ -37,7 +37,7 @@ def get_genai_response(user_input: str) -> str:
         return response.text
     except Exception as e:
         print(f"Error generating response: {e}")
-        return "Sorry, I couldn't process that. Please try again."
+        return f"Sorry, I couldn't process that. Please try again. \n\n {e.message}"
 
 
 def get_existing_messages() -> list:
